@@ -1,0 +1,39 @@
+
+body {
+
+  height: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+#header{
+  background: #31b4aa;
+}
+h1{
+  font-family: 'Impact', sans-serif;
+  font-size: 50px;
+  margin-top: 0;
+  letter-spacing: 5px;
+  color: #ffffff;
+}
+
+p {
+  font-family: 'Hiragino Kaku Gothic Pro', sans-serif;
+}
+
+#taxi {
+  position: absolute;
+  top: 300px;
+  left: 0;
+  height: 100px;
+  width: 0px;
+}
+
+footer {
+  background-color: #31b4aa;
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  color: #ffffff;
+}

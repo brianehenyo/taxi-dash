@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body{
+  text-align: center;
+  margin: 0;
+}
+
+#header{
+  background: #31b4aa;
+}
+h1{
+  font-family: 'Impact', sans-serif;
+  font-size: 50px;
+  margin-top: 0;
+  letter-spacing: 5px;
+  color: #ffffff;
+}
+h2{
+  margin-bottom: 0;
+}
+
+#map {
+  float: left;
+  position: absolute;
+  top: 260px;
+  height: 40vh;
+  width: 100%;
+}
+
+footer{
+  padding: 10px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #31b4aa;
+  color: #ffffff;
+}

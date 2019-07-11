@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TAXI DASH BUTTON</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<!--タクシーアイコンを動かすため-->
+<body onLoad="move()">
+  <header>
+    <h1 id="header">MAIN</h1>
+  </header>
+  <!--search.phpにpostする内容-->
+  <form method="post" action="post.php">
+    <p>ニックネーム<br>
+      <input type="text" name="myTEXT" required></p>
+      <br>
+    <p><input type="submit" name="DASH" id="submit"></p>
+  </form>
+  <p>※位置情報をONにして下さい。</p>
+  <!--タクシーを動かす-->
+  <script src="js/main.js"></script>
+  <div id="taxi">
+    <img src="images/taxi.jpg" alt="タクシー">
+  </div>
+  <!--footerの設定-->
+  <!-- <footer>TAXIDUSHBUTTON DEMO</footer> -->
+</body>
+</html>
